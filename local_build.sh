@@ -49,7 +49,7 @@ build () {
 build_reset () {
     rm -rf $CURRENT_DIR/build/reset
     west build \
-        -p -b nice_nano \
+        -p -b nice_nano_v2 \
         -S studio-rpc-usb-uart \
         -d "$CURRENT_DIR/build/reset" -- \
         -DZMK_CONFIG="$CURRENT_DIR" \
