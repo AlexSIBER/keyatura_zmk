@@ -77,10 +77,10 @@
         dvorak {
             display-name = "MAIN";
             bindings = <
-&kp SQT     &kp COMMA   &kp DOT      &kp P        &kp Y        &kp F  &kp G        &kp C            &kp R       &kp L
-&hm LGUI A  &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I        &kp D  &hm LSHFT H  &hm LCTRL T      &hm LALT N  &hm LGUI S
-&kp SEMI    &kp Q       &kp J        &kp K        &kp X        &kp B  &kp M        &kp W            &kp V       &kp Z
-                                     &lt 2 SPACE  &sl 3        &to_dr &lt 5 DEL    &sl 3            &lt 2 BACKSPACE  
+&kp SQT     &kp COMMA   &kp DOT      &kp P        &kp Y  &kp F   &kp G        &kp C        &kp R            &kp L
+&hm LGUI A  &hm LALT O  &hm LCTRL E  &hm LSHFT U  &kp I  &kp D   &hm LSHFT H  &hm LCTRL T  &hm LALT N       &hm LGUI S
+&kp SEMI    &kp Q       &kp J        &kp K        &kp X  &kp B   &kp M        &kp W        &kp V            &kp Z
+                                     &lt 2 SPACE  &sl 3  &to_dr  &lt 5 DEL    &sl 3        &lt 2 BACKSPACE
             >;
         };
 
@@ -89,22 +89,22 @@
 &kp W           &dr_soft_sign   &kp Z        &dr_comma         &dr_dot  &kp P      &kp D              &kp R        &kp L            &kp X
 &hm LEFT_GUI E  &hm LEFT_ALT B  &hm RCTRL T  &hm LEFT_SHIFT J  &kp F    &kp K      &hm RIGHT_SHIFT Y  &hm RCTRL N  &hm RIGHT_ALT C  &hm RIGHT_GUI H
 &kp A           &kp APOS        &kp LBKT     &kp S             &kp DOT  &kp COMMA  &kp V              &kp G        &kp U            &kp SEMI
-                                             &trans            &sl 4    &to_dv     &trans             &sl 4        &trans       
+                                             &trans            &sl 4    &to_dv     &trans             &sl 4        &trans
             >;
         };
 
         nav {
             bindings = <
-&none      &kp LC(S)  &kp LC(F)  &kp LC(H)  &kp CAPS  &kp C_VOL_UP  &kp HOME   &kp PRINTSCREEN  &kp PG_UP      &none
-&kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none     &kp C_MUTE    &kp LEFT   &kp UP           &kp RIGHT      &kp INS
-&kp LC(Z)  &none      &none      &none      &none     &kp C_VOL_DN  &kp END    &kp DOWN         &kp PAGE_DOWN  &none
-                                 &trans     &trans    &trans        &kp C_PREV &kp C_PP         &kp C_NEXT       
+&none      &kp LC(S)  &kp LC(F)  &kp LC(H)  &kp CAPS  &kp C_VOL_UP  &kp HOME    &kp PRINTSCREEN  &kp PG_UP      &none
+&kp LC(A)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none     &kp C_MUTE    &kp LEFT    &kp UP           &kp RIGHT      &kp INS
+&kp LC(Z)  &none      &none      &none      &none     &kp C_VOL_DN  &kp END     &kp DOWN         &kp PAGE_DOWN  &none
+                                 &trans     &trans    &trans        &kp C_PREV  &kp C_PP         &kp C_NEXT
             >;
         };
 
         num {
             bindings = <
-&kp RBKT         &kp GRAVE  &kp PLUS  &kp EQUAL   &kp ESCAPE   &kp UNDER  &kp MINUS      &kp BSLH      &kp FSLH              &kp LBKT
+&kp RBKT         &kp GRAVE  &kp PLUS  &kp EQUAL   &kp ESCAPE   &kp MINUS  &kp UNDER      &kp BSLH      &kp FSLH              &kp LBKT
 &kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp N1           &kp N2     &kp N3    &kp N4      &kp N5       &kp N6     &kp N7         &kp N8        &kp N9                &kp N0
                                       &trans      &kp ENTER    &trans     &trans         &kp TAB       &trans
@@ -113,10 +113,10 @@
 
         num_dr {
             bindings = <
-&kp O            &kp GRAVE  &kp PLUS  &kp EQUAL   &kp ESCAPE   &kp UNDER  &kp MINUS      &kp BSLH      &kp Q                 &kp I
+&kp O            &kp GRAVE  &kp PLUS  &kp EQUAL   &kp ESCAPE   &kp MINUS  &kp UNDER      &kp BSLH      &kp Q                 &kp I
 &kp EXCLAMATION  &kp AT     &kp HASH  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp N1           &kp N2     &kp N3    &kp N4      &kp N5       &kp N6     &kp N7         &kp N8        &kp N9                &kp N0
-                                      &trans      &kp ENTER    &trans     &trans         &kp TAB       &trans        
+                                      &trans      &kp ENTER    &trans     &trans         &kp TAB       &trans
             >;
         };
 
@@ -130,3 +130,4 @@
         };
     };
 };
+
